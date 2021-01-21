@@ -17,4 +17,16 @@
         android:textColor="#000000"
         android:fontFamily="sans-serif-medium"
         android:paddingTop="20dp" />
+
+    <ImageView
+        android:id="@+id/controller_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lukabyte_textview"
+        android:layout_centerHorizontal="true"
+        android:maxWidth="200sp"
+        android:maxHeight="200sp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/controller" />
 </RelativeLayout>
