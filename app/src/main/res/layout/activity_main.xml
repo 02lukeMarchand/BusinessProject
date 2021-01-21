@@ -91,4 +91,46 @@
         android:paddingLeft="20dp"
         />
 
+    <TextView
+        android:id="@+id/operation_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hours of Operation"
+        android:textSize="18sp"
+        android:layout_below="@id/line_imageview"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/months_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="August-May"
+        android:textSize="18sp"
+        android:layout_below="@id/operation_textview"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/hours_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mon-Fri 9am-5pm"
+        android:textSize="18sp"
+        android:layout_below="@id/months_textview"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:layout_alignParentRight="true"
+        />
+
 </RelativeLayout>
