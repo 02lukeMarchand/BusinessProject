@@ -29,4 +29,16 @@
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
         android:src="@drawable/controller" />
+
+    <TextView
+        android:id="@+id/description_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LukaByte Studio is an indie game studio developing games like Warrior's Rush, which is now available on android and IOS devices. We work hard to give gamers the great experience of a great game."
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/controller_imageview"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-medium"
+        android:padding="20dp" />
 </RelativeLayout>
